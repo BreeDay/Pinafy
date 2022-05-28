@@ -1,7 +1,6 @@
-/* The page is NOT responsive. You can implement responsiveness yourself if you wanna have some fun 😃 */
 
 :root {
-    --color-primary: #0471c9;
+    --color-primary: #ff7f50;
     --color-secondary: #ffcb03;
     --color-tertiary: #ff585f;
     --color-primary-darker: #4bbb7d;
@@ -26,15 +25,15 @@
   body {
     font-family: 'Poppins', sans-serif;
     font-weight: 300;
-    color: #444;
+    color: #f3f3f3;
     line-height: 1.9;
-    background-color: #f3f3f3;
+    background-color: #444;
   }
   
   /* GENERAL ELEMENTS */
   .section {
     padding: 15rem 3.5rem;
-    border-top: 1px solid #ddd;
+    border-top: 1px solid #444;
     transition: transform 1s, opacity 1s;
   }
   
@@ -52,7 +51,7 @@
     font-size: 1.8rem;
     font-weight: 600;
     text-transform: uppercase;
-    color: #0471c9;
+    color: #ff7f50;
     margin-bottom: 1rem;
   }
   
@@ -61,12 +60,13 @@
     text-align: center;
     line-height: 1.1;
     font-weight: 500;
+    color: #fff;
   }
   
   .btn {
     display: inline-block;
     color:#fff;
-    background-color: #0471c9;
+    background-color: #ff7f50;
     font-size: 1.6rem;
     font-family: inherit;
     font-weight: 500;
@@ -85,14 +85,14 @@
   
   .btn--text {
     display: inline-block;
-    background: none;
-    font-size: 1.7rem;
+    color:#ff7f50;
+    background-color: #fff;
+    font-size: 1.6rem;
     font-family: inherit;
     font-weight: 500;
-    color: #0471c9;
     border: none;
-    border-bottom: 1px solid currentColor;
-    padding-bottom: 2px;
+    padding: 1.25rem 4.5rem;
+    border-radius: 10rem;
     cursor: pointer;
     transition: all 0.3s;
   }
@@ -127,9 +127,11 @@
   /* nav and stickly class at the same time */
   .nav.sticky {
     position: fixed;
-    background-color: rgba(255, 255, 255, 0.95);
+    background-color: rgba(0, 0, 0, 0.95);
   }
-  
+  h4{
+    color:#ff7f50;
+  }
   .nav__logo {
     height: 6.5rem;
     transition: all 0.3s;
@@ -178,7 +180,7 @@
   .nav__link--btn:visited {
     padding: 0.8rem 2.5rem;
     border-radius: 3rem;
-    background-color: #0471c9;
+    background-color: #ff7f50;
     color: #fff;
   }
   
@@ -198,6 +200,9 @@
     text-decoration: none;
     display: block;
     transition: all 0.3s;
+  }
+  .benefits__header{
+    color: #37383d;
   }
   iframe{
     width:560px; 
@@ -252,7 +257,7 @@
     z-index: -1;
     opacity: 0.7;
     transform: scale(1.07, 1.05) skewX(-15deg);
-    background-color: #0471c9;
+    background-color: #ff7f50;
   }
   
   /* FEATURES */
@@ -554,7 +559,7 @@
   /* FOOTER */
   .footer {
     padding: 10rem 3rem;
-    background-color: #37383d;
+    background-color: #000;
   }
   
   .footer__nav {
@@ -631,7 +636,7 @@
 .toggle-button .bar{
   height: 3px;
   width: 100%;
-  background-color: #0471c9;
+  background-color: #ff7f50;
   border-radius: 10px;
 }
 .exit{
@@ -644,7 +649,7 @@
   width: 21px;
   height: 21px;
   font-size: large;
-  color: #0471c9;
+  color: #ff7f50;
 }
   @media screen and (max-width: 768px){
      .row{
