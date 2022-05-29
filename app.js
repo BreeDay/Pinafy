@@ -4,6 +4,8 @@ const clearCartBtn = document.querySelector(".clear-cart");
 const cartDOM = document.querySelector(".cart");
 const cartOverlay = document.querySelector(".cart-overlay");
 const cartItems = document.querySelector(".cart-items");
+const divdTotal = document.querySelector(".divd-total");
+const shareTotal = document.querySelector(".share-total");
 const cartTotal = document.querySelector(".cart-total");
 const cartContent = document.querySelector(".cart-content");
 const productDOM = document.querySelector(".products-center");
@@ -75,7 +77,7 @@ class UI{
                 Storage.saveCart(cart);
                 this.setCartValues(cart);
                 this.addCartItem(cartItem);
-                this.showCart();
+                // this.showCart();
             });
         }
     });
@@ -88,7 +90,23 @@ class UI{
             itemstotal += item.amount
         })
         cartTotal.innerText = parseFloat(tempTotal.toFixed(2))
-        cartItems.innerText = itemstotal;        
+        cartItems.innerText = itemstotal; 
+        this.setShareValues(tempTotal);
+        this.setDivdTotal(tempTotal);       
+    }
+    setShareValues(tempTotal){
+        let sharePrice = 21.80;
+        let shareAmount = tempTotal / sharePrice;
+        shareTotal.innerText = parseFloat(shareAmount.toFixed(2))
+    }
+    setDivdTotal(tempTotal){
+        let dividend = .0521;
+        let years = 3;
+        let annualDivd = (1 +(dividend))
+        let totalDivid = Math.pow(annualDivd, years)
+        let totalInvsmt = tempTotal * totalDivid;
+        divdTotal.innerText = parseFloat(totalInvsmt.toFixed(2))
+        console.log(totalInvsmt);
     }
     addCartItem(item){
         const div = document.createElement('div');

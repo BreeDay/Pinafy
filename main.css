@@ -57,6 +57,16 @@ body {
   border-radius: 30%;
   color: var(--mainWhite);
 }
+.cart-total{
+  color:crimson;
+}
+.share-total{
+  color: green;
+}
+.divd-total{
+  color: green;
+  font-size: large;
+}
 .orange{
     color: #f09d51;
 }
