@@ -1,0 +1,68 @@
+{
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "eyebrow brush",
+          "price": 10.99,
+          "image": { "fields": { "file": { "url": "./img/brush.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "imaginary camera",
+          "price": 120.99,
+          "image": { "fields": { "file": { "url": "./img/camera.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Lost iPhones",
+          "price": 202.99,
+          "image": { "fields": { "file": { "url": "./img/iphones.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Bubble gum lipstick",
+          "price": 22.99,
+          "image": { "fields": { "file": { "url": "./img/lipstick.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Milk",
+          "price": 8.99,
+          "image": { "fields": { "file": { "url": "./img/milk.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "electric paper weight",
+          "price": 52.99,
+          "image": { "fields": { "file": { "url": "./img/paperweight.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Perfume bottle",
+          "price": 45.99,
+          "image": { "fields": { "file": { "url": "./img/perfume.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "8" },
+        "fields": {
+          "title": "sale stickers",
+          "price": 3.99,
+          "image": { "fields": { "file": { "url": "./img/sale.jpg" } } }
+        }
+      }
+    ]
+  }
