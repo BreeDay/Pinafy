@@ -74,7 +74,7 @@ body {
 /* --------------- Hero ---------------- */
 .hero {
   min-height: calc(100vh - 60px);
-  background: url("./img/shopping.jpg") center/cover no-repeat;
+  background: url("/img/shopping.jpg") center/cover no-repeat;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -110,6 +110,10 @@ body {
   text-decoration: none;
   color: #fff;
   scroll-behavior: smooth;
+}
+.nodec{
+  text-decoration: none;
+  color: #fff;
 }
 /* --------------- End of Hero ---------------- */
 /* --------------- Products ---------------- */
