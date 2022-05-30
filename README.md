@@ -13,4 +13,3 @@ These steps worked for me while initially developing Pinafy, but I did run into 
 
 Project sources:https://github.com/Rapyd-Samples/rapyd_checkout_example https://www.youtube.com/watch?v=023Psne_-_4&t=1141s https://github.com/simonjsuh/Reactjs-stock-market-tracking-app-tutorial-files/blob/master/src/Stock.js
 
-An additional repository was created for viewing details of the stocks. It can be found at: https://github.com/BreeDay/Pinafy-stock
